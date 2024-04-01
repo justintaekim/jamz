@@ -1,0 +1,33 @@
+.flexWrapCol {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+}
+
+.flexWrapRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 5em;
+}
+
+.imgSize {
+  width: 300px;
+  height: auto;
+}
+
+.editMargin {
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+}
+
+.biggerText {
+  font-size: 80px;
+  margin-top: 0;
+}

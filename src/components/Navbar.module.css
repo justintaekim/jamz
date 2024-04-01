@@ -1,0 +1,35 @@
+.flexWrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust padding as needed */
+}
+
+.logoContainer {
+  flex-shrink: 0; /* Prevent logo from shrinking */
+}
+
+.logo {
+  height: 40px; /* Adjust height as needed */
+}
+
+.menuItems {
+  display: flex;
+  color: white; /* Set text color to white */
+}
+
+/* Optional: Add additional styling for menu items */
+.menuItems div {
+  margin-left: 20px; /* Adjust spacing between menu items */
+  padding: 0.5em;
+}
+
+.blackDiv {
+  background-color: black; /* Set background color to black */
+  border-radius: 1em;
+}
